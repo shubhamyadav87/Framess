@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 import pickle
 # Load your pre-trained model
-model = pickle.load(open(r"C:\Users\shubh\Desktop\Final\Framess\Framess.sav",'rb'))
+model = pickle.load(open("Framess.sav",'rb'))
 # model.eval()
 
 def preprocess_image(image):
